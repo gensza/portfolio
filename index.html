@@ -1,432 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-	<style>
-		img[src="https://www.freewebhostingarea.com/images/poweredby.png"] {
-			display: none;
-		}
-
-		*,
-		body,
-		html {
-			user-select: none
-		}
-
-		button,
-		a {
-			cursor: default;
-		}
-	</style>
-	<meta charset="utf-8" />
-	<title>Gensza - About</title>
-
-	<!-- Meta Data gege -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="format-detection" content="address=no" />
-	<meta name="author" content="tololTemplate" />
-	<meta name="description" content="vTolol" />
-
-	<!-- Twitter data -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@tololTemplate">
-	<meta name="twitter:title" content="vTolol">
-	<meta name="twitter:description" content="vTolol">
-	<meta name="twitter:image" content="assets/images/social.jpg">
-
-	<!-- Open Graph data -->
-	<meta property="og:title" content="tololTemplate" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="your url website" />
-	<meta property="og:image" content="assets/images/social.jpg" />
-	<meta property="og:description" content="vTolol" />
-	<meta property="og:site_name" content="vTolol" />
-	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
-	<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
-
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
-	<link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gensza | Web Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body class="bg-triangles-2">
-	<!-- Preloader -->
-	<div class="preloader">
-		<div class="preloader__wrap">
-			<svg class="spinner-container" viewBox="0 0 52 52">
-				<circle class="path" cx="26px" cy="26px" r="20px" fill="none" stroke-width="4px" />
-			</svg>
-			<div class="preloader__progress"><span></span></div>
-		</div>
-	</div>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Gensza.</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
 
-	<main class="main">
-		<!-- Menu -->
-		<div class="circle-menu">
-			<div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="hamburger__text">MENU</div>
-			</div>
-		</div>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Crafting Digital <br><span style="color: var(--accent-color);">Experiences</span> with Purpose.</h1>
+                <p>Full-stack Web Developer with 3+ years of experience in building scalable and efficient web applications.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="cta-button">View My Work</a>
+                    <a href="assets/img/CV-Gensza.pdf" target="_blank" style="margin-left: 1.5rem; font-weight: 600; color: var(--text-color);">Download CV <i class="fa-solid fa-arrow-down-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div class="nav-wrap mt-3">
-			<ul class="nav">
-				<li class="nav__item"><a class="active" href="about.html">About</a></li>
-				<li class="nav__item"><a href="resume.html">Resume</a></li>
-				<li class="nav__item"><a href="freelance.html">Freelance</a></li>
-				<!-- <li class="nav__item"><a href="blog.html">Blog</a></li> -->
-				<!-- <li class="nav__item"><a href="contact.html">Contact</a></li> -->
-			</ul>
-		</div>
-
-		<div class="wrapper">
-			<!-- Sidebar -->
-			<aside class="sidebar" data-simplebar>
-				<div>
-					<div class="avatar-wrap">
-						<svg class="avatar avatar--180" viewBox="0 0 188 188">
-							<g class="avatar__box">
-								<image xlink:href="assets/img/foto-linkdin.jpeg" height="100%" width="100%" />
-							</g>
-						</svg>
-					</div>
-					<div class="text-center">
-						<h3 class="title sidebar__user-name mt-0">Gensza</h3>
-						<div class="badge badge--gray mt-0 mb-3">Web Developer</div>
-
-					</div>
-
-					<ul class="contact-block">
-						<li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Birthday">
-							<i class="font-icon icon-calendar2"></i>01 May 1999
-						</li>
-						<li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Address">
-							<i class="font-icon icon-map-pin"></i>South Tangerang
-						</li>
-						<li class="contact-block__item" data-toggle="tooltip" data-placement="top"
-							title="mohamadgenszavernando@gmail.com">
-							<a href="mailto:mohamadgenszavernando@gmail.com"><i
-									class="font-icon icon-mail"></i>mohamadgenszavernando@gmail.com</a>
-						</li>
-						<li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Phone">
-							<i class="font-icon icon-smartphone"></i>+6285772154850
-						</li>
-						<li class="contact-block__item" data-toggle="tooltip" data-placement="top" title="Github">
-							<a href="https://github.com/gensza"><i
-									class="font-icon icon-github"></i>github.com/gensza</a>
-						</li>
-					</ul>
-				</div>
-				<a class="btn" href="assets/img/CV-Gensza.pdf" target="_blank"><i class="font-icon icon-download"></i>
-					Download CV</a>
-
-				<!-- Social -->
-				<div class="social">
-					<a class="social__link" href="//facebook.com/gensza76"><i class="font-icon icon-facebook"></i></a>
-					<a class="social__link" href="//instagram.com/genszanando"><i
-							class="font-icon icon-instagram"></i></a>
-					<a class="social__link" href="//twitter.com/Genszaa"><i class="font-icon icon-twitter"></i></a>
-					<a class="social__link" href="#"><i class="font-icon icon-dribbble"></i></a>
-				</div>
-			</aside>
-
-			<!-- Content -->
-			<div class="content" data-simplebar>
-				<!-- About -->
-				<div class="section mt-0">
-					<h1 class="title title--h1 title__separate">About Me</h1>
-					<div class="pt-2 pt-sm-3">
-						<p>I am Gensza with 3+ years experience as full stack web developer. I like the development of
-							web applications related to the company's business processes. Experienced and deep in
-							PHP (CodeIgniter, Laravel), Javascript, Golang, Docker, MySQL and Bootstrap.</p>
-					</div>
-				</div>
-
-				<div class="section mt-0">
-					<h1 class="title title--h1 title__separate">Portfolio</h1>
-				</div>
-
-				<!-- Content -->
-				<div class="gallery-grid js-grid js-filter-container pt-2 pt-sm-3">
-					<div class="gutter-sizer"></div>
-
-					<!-- Item 1 -->
-					<figure class="gallery-grid__item">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/neo.PNG" data-zoom alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Relocation Application
-							</h4>
-							<span class="gallery-grid__category">
-								The Relocation Application is used internally by BRI to procure new
-								telecommunications networks in work units, relocate and
-								reposition, and dismantle telecommunications networks that are
-								nolonger used by work units.
-						</figcaption>
-					</figure>
-
-					<!-- Item 2 -->
-					<figure class="gallery-grid__item">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/inms.PNG" data-zoom
-								alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Integrated Network Monitoring Application
-							</h4>
-							<span class="gallery-grid__category">
-								This network monitoring application is used to monitor the entire
-								BRI internet network in Indonesia, starting from ATMs, KC, KK and
-								others
-							</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 3 -->
-					<figure class="gallery-grid__item">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/masis.PNG" data-zoom
-								alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">IT Asset Aplication</h4>
-							<span class="gallery-grid__category">
-								The IT Asset application is used for managing / monitoring data sets
-								online, such as their latest condition, the number of assets per
-								category, information on the location of these assets and
-								maintenance ofborrowing sets suchas laptops, printers and soon.
-							</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 4 -->
-					<figure class="gallery-grid__item">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/marketing.PNG" data-zoom
-								alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Contract and Sales Invoice Application</h4>
-							<span class="gallery-grid__category">
-								This application is used to create sales contracts and invoices for
-								products such as CO, CGK & PK. in this application there are 3 types
-								of contracts namely LTC (Long Term Contract), STC (Short Term
-								Contract) &Spot..
-							</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 5 -->
-					<figure class="gallery-grid__item">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/logistik.PNG" data-zoom
-								alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Logistics Application (Warehouse)</h4>
-							<span class="gallery-grid__category">
-								This Logistics application is used for warehouse needs for incoming
-								stock of goods and outgoing stock of goods from the head office to
-								the work site. which is directly integrated with the Cash Bank
-								application.
-							</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 6 -->
-					<figure class="gallery-grid__item">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/caba.PNG" data-zoom
-								alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">Cash and Bank Application</h4>
-							<span class="gallery-grid__category">
-								This application is used in accounting to carry out or control
-								transactions related to expenses and income such as cash & bank,
-								sothat it can estimate orinform bank and cashbalances every day.
-							</span>
-						</figcaption>
-					</figure>
-
-					<!-- Item 7 -->
-					<figure class="gallery-grid__item mt-xl-4 mt-lg-4 mt-md-4">
-						<div class="gallery-grid__image-wrap">
-							<img class="gallery-grid__image cover lazyload" src="assets/img/gl.PNG" data-zoom alt="" />
-						</div>
-						<figcaption class="gallery-grid__caption">
-							<h4 class="title title--h4 gallery-grid__title">General Ledger Application</h4>
-							<span class="gallery-grid__category">
-								The General Ledger (GL) application is an accounting application to
-								record all journal transactions, ledgers, to produce financial reports
-								suchas trial balances, profit and loss balances, etc. automatically.
-							</span>
-						</figcaption>
-					</figure>
-				</div>
-
-				<!-- What -->
-				<!-- <div class="section">
-					<h2 class="title title--h2">What I'm Doing</h2>
-					<div class="row"> -->
-				<!-- Case Item -->
-				<!-- <div class="col-12 col-lg-6 case-item-wrap">
-							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-design.svg" alt="" />
-								<h3 class="title title--h3">Web Design</h3>
-								<p class="case-item__caption">The most modern and high-quality design made at a professional level. </p>
-							</div>
-						</div> -->
-
-				<!-- Case Item -->
-				<!-- <div class="col-12 col-lg-6 case-item-wrap">
-							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-dev.svg" alt="" />
-								<h3 class="title title--h3">Web Development</h3>
-								<p class="case-item__caption">development of sites at the junior level.</p>
-							</div>
-						</div> -->
-
-				<!-- Case Item -->
-				<!-- <div class="col-12 col-lg-6 case-item-wrap">
-							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-app.svg" alt="" />
-								<h3 class="title title--h3">Mobile Apps</h3>
-								<p class="case-item__caption">Professional development of applications for iOS and Android.</p>
-							</div>
-						</div> -->
-
-				<!-- Case Item -->
-				<!-- <div class="col-12 col-lg-6 case-item-wrap">
-							<div class="case-item">
-								<img class="case-item__icon" src="assets/icons/icon-photo.svg" alt="" />
-								<h3 class="title title--h3">Photography</h3>
-								<p class="case-item__caption">I make high-quality photos of any category at a professional level.</p>
-							</div>
-						</div> -->
-				<!-- </div>
-				</div> -->
-
-
-
-				<!-- Testimonials -->
-				<!-- <div class="section">
-					<h2 class="title title--h2">Testimonials</h2>
-					<div class="swiper-container js-carousel-review">
-                        <div class="swiper-wrapper"> -->
-				<!-- Item review -->
-				<!-- <div class="swiper-slide review-item">
-								<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                    <g class="avatar__hexagon">
-                                        <image xlink:href="assets/img/avatar-2.jpg" height="100%" width="100%" />
-                                    </g>
-                                </svg>
-								<h4 class="title title--h3">Daniel Lewis</h4>
-								<p class="review-item__caption">Gunadi was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client.</p>
-							</div> -->
-
-				<!-- Item review -->
-				<!-- <div class="swiper-slide review-item">
-								<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                    <g class="avatar__hexagon">
-                                        <image xlink:href="assets/img/avatar-3.jpg" height="100%" width="100%" />
-                                    </g>
-                                </svg>
-								<h4 class="title title--h3">Jessica Miller</h4>
-								<p class="review-item__caption">Gunadi was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client.</p>
-							</div> -->
-
-				<!-- Item review -->
-				<!-- <div class="swiper-slide review-item">
-								<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                    <g class="avatar__hexagon">
-                                        <image xlink:href="assets/img/avatar-4.jpg" height="100%" width="100%" />
-                                    </g>
-                                </svg>
-								<h4 class="title title--h3">Tanya Ruiz</h4>
-								<p class="review-item__caption">Gunadi was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client.</p>
-							</div> -->
-
-				<!-- Item review -->
-				<!-- <div class="swiper-slide review-item">
-								<svg class="avatar avatar--80" viewBox="0 0 84 84">
-                                    <g class="avatar__hexagon">
-                                        <image xlink:href="assets/img/avatar-5.jpg" height="100%" width="100%" />
-                                    </g>
-                                </svg>
-								<h4 class="title title--h3">Thomas Castro</h4>
-								<p class="review-item__caption">Gunadi was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client.</p>
-							</div>
-                        </div> -->
-
-				<!-- <div class="swiper-pagination"></div>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <img src="assets/img/foto-linkdin.jpeg" alt="Gensza Profile">
+                </div>
+                <div class="about-text fade-in">
+                    <h2>Hello, I'm Gensza</h2>
+                    <p>I am a Full Stack Web Developer with over 3 years of experience. I am passionate about developing web applications that streamline business processes and enhance user experience.</p>
+                    <p>My journey in software development has allowed me to work deep with a variety of technologies, ensuring robust and scalable solutions from back-end logic to front-end presentation.</p>
+                    <div style="margin-top: 2rem;">
+                        <ul class="contact-details">
+                            <li><i class="fa-solid fa-location-dot" style="color: var(--accent-color);"></i> South Tangerang, Indonesia</li>
+                            <li><i class="fa-solid fa-envelope" style="color: var(--accent-color);"></i> mohamadgenszavernando@gmail.com</li>
+                            <li><i class="fa-solid fa-phone" style="color: var(--accent-color);"></i> +62 857 7215 4850</li>
+                        </ul>
                     </div>
-				</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Clients -->
-				<!-- <div class="section">
-					<h2 class="title title--h2">Clients</h2>
-					<div class="swiper-container js-carousel-clients">
-                        <div class="swiper-wrapper"> -->
-				<!-- Item client -->
-				<!-- <div class="swiper-slide">
-								<a href="#"><img src="assets/img/logo-partner.svg" alt="Logo" /></a>
-							</div> -->
+    <!-- Projects Section -->
+    <section id="projects" style="background-color: #fff;">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/img/neo.png" alt="Relocation Application">
+                    </div>
+                    <div class="project-info">
+                        <h3>Relocation Application</h3>
+                        <p>Internal tool for BRI Bank to manage telecommunications network procurement, relocation, and dismantling.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/img/inms.png" alt="Integrated Network Monitoring">
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Monitoring App</h3>
+                        <p>A comprehensive system to monitor BRI's internet network across ATMs, KC, and KK units nationwide.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/img/masis.PNG" alt="IT Asset Application">
+                    </div>
+                    <div class="project-info">
+                        <h3>IT Asset Application</h3>
+                        <p>Management system for tracking asset conditions, categories, locations, and maintenance records.</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/img/marketing.PNG" alt="Contract & Sales Invoice">
+                    </div>
+                    <div class="project-info">
+                        <h3>Contract & Sales Invoice</h3>
+                        <p>Streamlined application for creating and managing sales contracts (LTC, STC, Spot) and invoices.</p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/img/logistik.PNG" alt="Logistics Application">
+                    </div>
+                    <div class="project-info">
+                        <h3>Logistics & Warehouse App</h3>
+                        <p>Inventory management for incoming and outgoing stock, integrated with Cash Bank systems.</p>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/img/caba.PNG" alt="Cash and Bank Application">
+                    </div>
+                    <div class="project-info">
+                        <h3>Cash & Bank Application</h3>
+                        <p>Accounting tool for controlling expenses and income transactions to estimate daily balances.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Item client -->
-				<!-- <div class="swiper-slide">
-								<a href="#"><img src="assets/img/logo-partner.svg" alt="Logo" /></a>
-							</div> -->
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Technical Skills</h2>
+            <div class="skills-container fade-in">
+                <span class="skill-badge"><i class="fa-brands fa-php"></i> PHP (Laravel, CI)</span>
+                <span class="skill-badge"><i class="fa-brands fa-golang"></i> Golang</span>
+                <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="skill-badge"><i class="fa-brands fa-docker"></i> Docker</span>
+                <span class="skill-badge"><i class="fa-solid fa-database"></i> MySQL</span>
+                <span class="skill-badge"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML5 / CSS3</span>
+                <span class="skill-badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+            </div>
+        </div>
+    </section>
 
-				<!-- Item client -->
-				<!-- <div class="swiper-slide">
-								<a href="#"><img src="assets/img/logo-partner.svg" alt="Logo" /></a>
-							</div> -->
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: #fff;">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-layout">
+                <div class="contact-info fade-in">
+                    <h3>Let's talk about your next project</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem;">I'm currently available for freelance work and full-time opportunities. If you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="social-links" style="display: flex; gap: 1.5rem; font-size: 1.5rem;">
+                        <a href="https://github.com/gensza" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/genszanando" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Genszaa" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-				<!-- Item client -->
-				<!-- <div class="swiper-slide">
-								<a href="#"><img src="assets/img/logo-partner.svg" alt="Logo" /></a>
-							</div>
-						</div>
-								
-						<div class="swiper-pagination"></div>
-					</div> -->
-				<!-- </div> -->
-			</div><!-- Content End -->
-		</div><!-- Wrapper End -->
-	</main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mohamad Gensza Fernando. All rights reserved.</p>
+        </div>
+    </footer>
 
-	<!-- SVG masks -->
-	<svg class="svg-defs">
-		<clipPath id="avatar-box">
-			<path
-				d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z" />
-		</clipPath>
-		<clipPath id="avatar-hexagon">
-			<path
-				d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z" />
-		</clipPath>
-	</svg>
-
-
-
-	<!-- JavaScripts -->
-	<script src="assets/js/jquery-3.4.1.min.js"></script>
-	<script src="assets/js/plugins.min.js"></script>
-	<script src="assets/js/common.js"></script>
-
-	<script src="assets/demo/plugins-demo.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
